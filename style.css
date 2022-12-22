@@ -184,5 +184,19 @@
 	}
 	#output {
 		max-height: 40vh;
+		border: 2px solid gray;
+		border-radius: 5px;
+	}
+	.dropZone {
+		border: 2px solid gray;
+		border-radius: 5px;
+		margin-bottom: 30px;
+	}
+	#download {
+		border: 2px solid gray;
+		border-radius: 5px;
+	}
+	.downloadButton {
+		padding: 20px 60px;
 	}
 }
