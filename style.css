@@ -153,6 +153,7 @@
 
 	color: white;
 	background-color: plum;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 
 	cursor: pointer;
 	transition-duration: 200ms;
@@ -167,4 +168,21 @@
 
 .downloadButton:active {
 	transform: scale(1.1);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 550px) {
+	.container {
+		height: 90vh;
+		flex-direction: column;
+		margin-top: 0px;
+	}
+	.form {
+		grid-template-columns: 1fr;
+		grid-template-rows: 3fr 2fr 1fr;
+	}
+	#output {
+		max-height: 40vh;
+	}
 }
